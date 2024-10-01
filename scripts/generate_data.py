@@ -80,7 +80,7 @@ if __name__ == "__main__":
     df_transactions = generate_transactions(df_customers, df_products, df_stores, 5000)
     
     # Save to CSV for later use by Airflow
-    df_customers.to_csv('customers.csv', index=False)
-    df_products.to_csv('products.csv', index=False)
-    df_stores.to_csv('stores.csv', index=False)
-    df_transactions.to_csv('transactions.csv', index=False)
+    df_customers.to_csv('data/customers.csv', index=False)
+    df_products.to_csv('data/products.csv', index=False)
+    df_stores.to_csv('data/stores.csv', index=False)
+    df_transactions.to_csv('data/transactions.csv', index=False)
