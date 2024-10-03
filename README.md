@@ -30,4 +30,5 @@ This project is a demonstration of an end-to-end data pipeline using **Apache Ai
 5. **Delete Files:** A final task that cleans up all the generated CSV and report files from the data folder.
 
 
+![Screenshot from 2024-10-03 02-37-34](https://github.com/user-attachments/assets/baaf4a99-baff-47e6-98fb-1179fc906cf8)
 
